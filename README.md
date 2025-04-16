@@ -169,15 +169,24 @@ Il codice esegue la sequenza di operazioni riportate in basso, ripetibile a rich
 - Eventuali file non trovati e dati errati verranno evidenziati sulla schermata dei comandi preceduti da asterisco. Anche l’esito finale delle verifiche di ogni elemento planimetrico ed altimetrico, se è negativo, verrà evidenziato indicando il valore limite da rispettare.
 - L’inserimento dei dati planimetrici ed altimetrici è possibile mediante la modalità copia-incolla delle colonne interessate dall’editor geometria in Autodesk Civil 3D, anche includendo l’unita m nelle lunghezze e il segno + nel formato km+m delle progressive. 
 - I dati di input vengono preliminarmente validati secondo il tipo di dato come segue: 
+
 numero della categoria stradale: numero intero positivo.
-        distanza B fra asse rotazione e estremità carreggiata, limite inferiore/ superiore dell’intervallo di velocità di progetto e velocità massima locale: numero decimale positivo (verrà approssimato alla seconda cifra decimale).
-        accelerazione/ decelerazione: numero decimale indifferentemente positivo o negativo (verrà approssimato alla seconda cifra decimale).
-        progressiva iniziale del tracciato, progressiva e quota del vertice altimetrico: numero decimale (verrà approssimato alla terza cifra decimale).
-        progressiva iniziale/ finale del tratto a limite massimo locale: numero decimale (verrà approssimato alla terza cifra decimale) o, eventualmente, stringa indifferentemente in maiuscolo o minuscolo.
-        tipologia dell’elemento planimetrico/ altimetrico: stringa indifferentemente in maiuscolo o minuscolo.
-        lunghezza dell’elemento planimetrico/ altimetrico: numero decimale non negativo (verrà approssimato alla terza cifra decimale).
-        raggio del raccordo planimetrico/ altimetrico e parametro di scala A: numero decimale positivo (verrà approssimato alla terza cifra decimale).
-        pendenza percentuale della livelletta: numero decimale (verrà approssimato alla seconda cifra decimale) 
+
+distanza B fra asse rotazione e estremità carreggiata, limite inferiore/ superiore dell’intervallo di velocità di progetto e velocità massima locale: numero decimale positivo (verrà approssimato alla seconda cifra decimale).
+
+accelerazione/ decelerazione: numero decimale indifferentemente positivo o negativo (verrà approssimato alla seconda cifra decimale).
+
+progressiva iniziale del tracciato, progressiva e quota del vertice altimetrico: numero decimale (verrà approssimato alla terza cifra decimale).
+
+progressiva iniziale/ finale del tratto a limite massimo locale: numero decimale (verrà approssimato alla terza cifra decimale) o, eventualmente, stringa indifferentemente in maiuscolo o minuscolo.
+
+tipologia dell’elemento planimetrico/ altimetrico: stringa indifferentemente in maiuscolo o minuscolo.
+
+lunghezza dell’elemento planimetrico/ altimetrico: numero decimale non negativo (verrà approssimato alla terza cifra decimale).
+
+raggio del raccordo planimetrico/ altimetrico e parametro di scala A: numero decimale positivo (verrà approssimato alla terza cifra decimale).
+
+pendenza percentuale della livelletta: numero decimale (verrà approssimato alla seconda cifra decimale) 
 
 Eslam Anter | 26.08.2024 
 eslam.anter@outlook.com 
