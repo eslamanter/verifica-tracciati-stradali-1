@@ -59,16 +59,16 @@ col4: accelerazione/ decelerazione [m/s2] (opzionale, nel caso in cui non si ins
 ### alt.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
 
 Modo I: (inserimento degli elementi altimetrici) 
-col1: tipologia di elemento specificando la parola completa {livelletta, raccordo}, oppure, indifferentemente la sola iniziale {l, r}; 
-col2: lunghezza dell’elemento [m]; 
-col3: pendenza della livelletta [%], oppure raggio del raccordo altimetrico [m]; 
-col4: pendenza della livelletta [%], oppure raggio del raccordo altimetrico [m], eventualmente se la terza colonna è vuota. La presenza di questa colonna è voluta al fine di facilitare l’inserimento dei dati: questa è, infatti, analoga in tutto per tutto alla precedente per cui, ad esempio, inserendo nella colonna 3 i dati relativi alla pendenza della livelletta tramite semplice copia-incolla, si può effettuare la medesima operazione con il raggio del raccordo altimetrico nella colonna 4. 
+- col1: tipologia di elemento specificando la parola completa {livelletta, raccordo}, oppure, indifferentemente la sola iniziale {l, r}; 
+- col2: lunghezza dell’elemento [m]; 
+- col3: pendenza della livelletta [%], oppure raggio del raccordo altimetrico [m]; 
+- col4: pendenza della livelletta [%], oppure raggio del raccordo altimetrico [m], eventualmente se la terza colonna è vuota. La presenza di questa colonna è voluta al fine di facilitare l’inserimento dei dati: questa è, infatti, analoga in tutto per tutto alla precedente per cui, ad esempio, inserendo nella colonna 3 i dati relativi alla pendenza della livelletta tramite semplice copia-incolla, si può effettuare la medesima operazione con il raggio del raccordo altimetrico nella colonna 4. 
 
 
 Modo II: (inserimento dei vertici altimetrici) 
-col1: progressiva del vertice [m] (la progressiva del primo vertice deve coincidere con quella iniziale del tracciato); 
-col2: quota del vertice [m]; 
-col3: raggio del raccordo verticale [m]. 
+- col1: progressiva del vertice [m] (la progressiva del primo vertice deve coincidere con quella iniziale del tracciato); 
+- col2: quota del vertice [m]; 
+- col3: raggio del raccordo verticale [m]. 
 
 # Cosa produce? 
 
