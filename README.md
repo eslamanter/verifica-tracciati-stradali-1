@@ -1,13 +1,13 @@
-Verifica Tracciati Stradali 1.0 | Documentazione 
+# Verifica Tracciati Stradali 1.0 | Documentazione 
 
 
-Cos’è? 
+# Cos’è? 
 
 Verifica Tracciati Stradali 1 è un codice eseguibile che effettua le verifiche planimetriche ed altimetriche previste dal D.M. 6792 del 05/11/2001 sui parametri geometrici di un dato tracciato stradale. 
 
  
 
-Come si usa? 
+# Come si usa? 
 
 All’avvio dell’applicazione viene richiesto il percorso assoluto o relativo della cartella nella quale devono essere già presenti i file testo di input, in particolare: 
 
@@ -19,7 +19,6 @@ lim.txt per i limiti di velocità locali (opzionale, per definire i tratti in cu
 
 alt.txt per i parametri altimetrici (opzionale, per effettuare le verifiche basate sull’andamento altimetrico). 
 
- 
 
 I contenuti dei file testo devono essere delimitati da tabulazioni al seguente modo: 
 
@@ -36,6 +35,7 @@ col4: limite superiore dell’intervallo di velocità di progetto [km/h]; §3.6
 col5: progressiva iniziale del tracciato [m]. 
 
 per le colonne da 2 a 5, nel caso in cui non si inserisca nessun valore il codice, di default, inserisce i valori nominali riportati nella normativa per le colonne 2, 3 e 4 e il valore 0 per la colonna 5. 
+
 
 Le categorie stradali sono così numerate: §3.6 
 
@@ -65,15 +65,10 @@ Le categorie stradali sono così numerate: §3.6
 
 [F2]	Strada extraurbana locale 
 
- [F]	Strada urbana locale 
+[F]	Strada urbana locale 
 
- 
 
-A screenshot of a computer
 
-Description automatically generated 
-
- 
 
 pla.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
 
@@ -85,13 +80,6 @@ col3: parametro di scala A, oppure raggio di curvatura [m], oppure inserire la l
 
 col4: parametro di scala A, oppure raggio di curvatura [m], eventualmente se la terza colonna è vuota. La presenza di questa colonna è voluta al fine di facilitare l’inserimento dei dati: questa è, infatti, analoga in tutto per tutto alla precedente per cui, ad esempio, inserendo nella colonna 3 il parametro di scala A tramite semplice copia-incolla, si può effettuare la medesima operazione con il raggio di curvatura nella colonna 4. 
 
- 
-
-A screenshot of a computer
-
-Description automatically generated 
-
- 
 
  
 
@@ -105,17 +93,7 @@ col3: velocità massima locale che si vuole imporre nel tratto [km/h];
 
 col4: accelerazione/ decelerazione [m/s2] (opzionale, nel caso in cui non si inserisca nessun valore il codice, di default, inserisce il valore di normativa pari a 0.80 m/s2). 
 
- 
 
- 
-
- 
-
- 
-
- 
-
- 
 
 alt.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
 
@@ -131,10 +109,6 @@ col4: pendenza della livelletta [%], oppure raggio del raccordo altimetrico [m],
 
  
 
- 
-
- 
-
 Modo II: (inserimento dei vertici altimetrici) 
 
 col1: progressiva del vertice [m] (la progressiva del primo vertice deve coincidere con quella iniziale del tracciato); 
@@ -143,17 +117,14 @@ col2: quota del vertice [m];
 
 col3: raggio del raccordo verticale [m]. 
 
- 
 
  
 
- 
-
-Cosa produce? 
+# Cosa produce? 
 
 Se vengono importati correttamente i dati planimetrici verranno creati i seguenti file testo tabulati: 
 
- 
+
 
 dati generali.txt 
 
@@ -239,10 +210,6 @@ L’esito di ciascun confronto viene evidenziato nella prima colonna come 0 se �
 
  
 
- 
-
- 
-
 verifiche altimetriche.txt (se vengono importati correttamente i dati altimetrici) 
 
 contiene: numero dell’elemento e parametri geometrici degli elementi altimetrici confrontati con i valori limite normativi come segue: 
@@ -286,7 +253,6 @@ visibilità cambio corsia.txt (se la carreggiata è a più corsie per senso di m
 contiene: coordinate (progressiva, distanza) del diagramma di visibilità richiesta per il cambiamento di corsia §5.1.4 
 
  
-
  
 
 eventi.txt 
@@ -369,8 +335,6 @@ pendenza percentuale della livelletta:
 
  
 
- 
-
 Eslam Anter | 26.08.2024 
 
 eslam.anter@outlook.com 
@@ -380,7 +344,5 @@ eslam.anter@outlook.com
 P.S. 
 
 L’idoneità del codice e l’utilizzo dei risultati da esso ottenuti sono onere e responsabilità esclusiva dell’utente. 
-
- 
 
  
