@@ -74,22 +74,22 @@ Modo II: (inserimento dei vertici altimetrici)
 
 Se vengono importati correttamente i dati planimetrici verranno creati i seguenti file testo tabulati: 
 
-### dati generali.txt 
+### 1. dati generali.txt 
 contiene: riferimenti normativi, tipologia stradale §3.1, distanza B fra asse rotazione e estremità carreggiata, velocità minima di progetto §3.6, velocità massima di progetto §3.6, progressiva iniziale, progressiva finale e lunghezza tracciato. 
 
-### velocità prima fase.txt 
+### 2. velocità prima fase.txt 
 contiene: coordinate (progressiva, velocità) del diagramma di velocità prima fase in corrispondenza delle curve circolari §5.4. 
 
-### velocità fase finale.txt 
+### 3. velocità fase finale.txt 
 contiene: coordinate (progressiva, velocità) del diagramma di velocità fase finale §5.4. 
 
-### elementi planimetrici.txt 
+### 4. elementi planimetrici.txt 
 contiene: numero dell’elemento, tipologia elemento, lunghezza, raggio, parametro di scala A, progressiva iniziale, progressiva finale, velocità dal diagramma di velocità prima fase, velocità massima dal diagramma di velocità fase finale, pendenza trasversale massima §5.2.4 e allargamento per ogni corsia per iscrizione del veicolo in curva §5.2.7. 
 
-### elementi altimetrici.txt (se vengono importati correttamente i dati altimetrici) 
+### 5. elementi altimetrici.txt (se vengono importati correttamente i dati altimetrici) 
 contiene: numero dell’elemento, tipologia elemento, lunghezza, pendenza longitudinale, raggio, progressiva iniziale, progressiva finale, andamento altimetrico e velocità massima dal diagramma di velocità fase finale. 
 
-### verifiche planimetriche.txt 
+### 6. verifiche planimetriche.txt 
 contiene: numero dell’elemento e parametri geometrici degli elementi planimetrici confrontati con i valori limite normativi come segue: 
 
 per un rettifilo: 
@@ -118,7 +118,7 @@ per un arco:
 
 L’esito di ciascun confronto viene evidenziato nella prima colonna come 0 se è negativo oppure 1 se è positivo, al fine di facilitare l’applicazione della formattazione condizionale in Excel in base al valore numerico.  
 
-### verifiche altimetriche.txt (se vengono importati correttamente i dati altimetrici) 
+### 7. verifiche altimetriche.txt (se vengono importati correttamente i dati altimetrici) 
 contiene: numero dell’elemento e parametri geometrici degli elementi altimetrici confrontati con i valori limite normativi come segue: 
 
 per una livelletta: 
@@ -133,19 +133,16 @@ per un raccordo:
 
 L’esito di ciascun confronto viene evidenziato nella prima colonna come 0 se è negativo oppure 1 se è positivo, al fine di facilitare l’applicazione della formattazione condizionale in Excel in base al valore numerico.  
 
-### visibilità arresto.txt (se vengono importati correttamente i dati altimetrici) 
+### 8. visibilità arresto.txt (se vengono importati correttamente i dati altimetrici) 
 contiene: coordinate (progressiva a passo di un metro, distanza) del diagramma di visibilità richiesta per l’arresto §5.1.2 
 
-### visibilità sorpasso.txt (se la strada è ad unica carreggiata) 
+### 9. visibilità sorpasso.txt (se la strada è ad unica carreggiata) 
 contiene: coordinate (progressiva, distanza) del diagramma di visibilità richiesta per il sorpasso §5.1.3 
 
-### visibilità cambio corsia.txt (se la carreggiata è a più corsie per senso di marcia) 
+### 10. visibilità cambio corsia.txt (se la carreggiata è a più corsie per senso di marcia) 
 contiene: coordinate (progressiva, distanza) del diagramma di visibilità richiesta per il cambiamento di corsia §5.1.4 
-
  
-
-### eventi.txt 
-
+### 11. eventi.txt 
 contiene: eventuali file non trovati, oppure dati errati, data e ora di stampa e contatti 
  
 
