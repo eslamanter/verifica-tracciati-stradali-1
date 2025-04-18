@@ -14,7 +14,7 @@ All’avvio dell’applicazione viene richiesto il percorso assoluto o relativo 
 
 I contenuti dei file testo devono essere delimitati da tabulazioni al seguente modo: 
 
-### imp.txt: (unica riga da almeno una colonna fino a cinque colonne) 
+### 1. imp.txt: (unica riga da almeno una colonna fino a cinque colonne) 
 
 - col1: numero della categoria stradale; §3.6 
 - col2: distanza B fra asse di rotazione e estremità della carreggiata [m]; §5.2.6 
@@ -42,21 +42,21 @@ Le categorie stradali sono così numerate: §3.6
 - 14 [F]	Strada urbana locale 
 
 
-### pla.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
+### 2. pla.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
 
 - col1: tipologia di elemento specificando la parola completa {rettifilo, clotoide, arco}, oppure, indifferentemente la sola iniziale {r, c, a}; 
 - col2: lunghezza dell’elemento [m]; 
 - col3: parametro di scala A, oppure raggio di curvatura [m], oppure inserire la lettera f nel caso in cui si debba specificare che si tratta di un rettifilo tra due curve di flesso, così da sostituire la verifica della lunghezza minima con quella della lunghezza massima di flesso; 
 - col4: parametro di scala A, oppure raggio di curvatura [m], eventualmente se la terza colonna è vuota. La presenza di questa colonna è voluta al fine di facilitare l’inserimento dei dati: questa è, infatti, analoga in tutto per tutto alla precedente per cui, ad esempio, inserendo nella colonna 3 il parametro di scala A tramite semplice copia-incolla, si può effettuare la medesima operazione con il raggio di curvatura nella colonna 4. 
 
-### lim.txt: (un tratto per riga a tre o quattro colonne) 
+### 3. lim.txt: (un tratto per riga a tre o quattro colonne) 
 
 col1: progressiva iniziale [m] del tratto in cui si vuole imporre una velocità massima locale diversa da quella del tracciato (oppure inserire la lettera i se nella seconda colonna viene specificata la distanza [m] dalla progressiva iniziale del tracciato per la quale va applicato il limite locale); 
 col2: progressiva finale [m] del  tratto in cui si vuole imporre una velocità massima locale diversa da quella del tracciato (oppure inserire la lettera f se nella prima colonna viene specificata la distanza [m] dalla progressiva finale del tracciato per la quale va applicato il limite locale); 
 col3: velocità massima locale che si vuole imporre nel tratto [km/h]; 
 col4: accelerazione/ decelerazione [m/s2] (opzionale, nel caso in cui non si inserisca nessun valore il codice, di default, inserisce il valore di normativa pari a 0.80 m/s2). 
 
-### alt.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
+### 4. alt.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
 
 Modo I: (inserimento degli elementi altimetrici) 
 - col1: tipologia di elemento specificando la parola completa {livelletta, raccordo}, oppure, indifferentemente la sola iniziale {l, r}; 
