@@ -1,4 +1,4 @@
-# Verifica Tracciati Stradali 1.0 | Documentazione 
+# Verifica Tracciati Stradali 1.0
 
 # Cos’è? 
 
