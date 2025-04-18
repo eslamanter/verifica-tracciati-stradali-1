@@ -185,7 +185,7 @@ raggio del raccordo planimetrico/ altimetrico e parametro di scala A: numero dec
 
 pendenza percentuale della livelletta: numero decimale (verrà approssimato alla seconda cifra decimale) 
 
-### Eslam Anter | 26.08.2024 | eslam.anter@outlook.com 
+### 26/08/2024 | Eslam Anter | eslam.anter@outlook.com 
 
 P.S. 
 L’idoneità del codice e l’utilizzo dei risultati da esso ottenuti sono onere e responsabilità esclusiva dell’utente. 
