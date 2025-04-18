@@ -26,20 +26,20 @@ per le colonne da 2 a 5, nel caso in cui non si inserisca nessun valore il codic
 
 Le categorie stradali sono così numerate: §3.6
 
-- 1. [A]	Autostrada extraurbana		(Strada principale) 
-- 2. [A]	Autostrada extraurbana		(Strada di servizio) 
-- 3. [A]	Autostrada urbana			(Strada principale) 
-- 4. [A]	Autostrada urbana			(Strada di servizio) 
-- 5. [B]	Strada extraurbana principale	(Strada principale) 
-- 6. [B]	Strada extraurbana principale	(Strada di servizio) 
-- 7. [C1]	Strada extraurbana secondaria 
-- 8. [C2]	Strada extraurbana secondaria 
-- 9. [D]	Strada urbana di scorrimento	(Strada principale) 
-- 10. [D]	Strada urbana di scorrimento	(Strada di servizio) 
-- 11. [E]	Strada urbana di quartiere 
-- 12. [F1]	Strada extraurbana locale 
-- 13. [F2]	Strada extraurbana locale 
-- 14. [F]	Strada urbana locale 
+- 1 [A]	Autostrada extraurbana		(Strada principale) 
+- 2 [A]	Autostrada extraurbana		(Strada di servizio) 
+- 3 [A]	Autostrada urbana			(Strada principale) 
+- 4 [A]	Autostrada urbana			(Strada di servizio) 
+- 5 [B]	Strada extraurbana principale	(Strada principale) 
+- 6 [B]	Strada extraurbana principale	(Strada di servizio) 
+- 7 [C1]	Strada extraurbana secondaria 
+- 8 [C2]	Strada extraurbana secondaria 
+- 9 [D]	Strada urbana di scorrimento	(Strada principale) 
+- 10 [D]	Strada urbana di scorrimento	(Strada di servizio) 
+- 11 [E]	Strada urbana di quartiere 
+- 12 [F1]	Strada extraurbana locale 
+- 13 [F2]	Strada extraurbana locale 
+- 14 [F]	Strada urbana locale 
 
 
 ### pla.txt: (un elemento per riga a tre o, eventualmente, quattro colonne) 
